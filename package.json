@@ -1,7 +1,7 @@
 {
-  "name": "dotenv-cli",
+  "name": "@octane11/dotenv-cli",
   "description": "A global executable to run applications with the ENV variables loaded by dotenv",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "author": "entropitor",
   "bin": {
     "dotenv": "./cli.js"
@@ -17,7 +17,10 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "repository": "entropitor/dotenv-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octane11/dotenv-cli.git"
+  },
   "scripts": {
     "lint": "standard"
   },
